@@ -1,5 +1,4 @@
-# portfolio
-Personal Portfolio
+# Personal Portfolio
 
 This site was built using:
 - [React App](https://reactjs.org/) 
