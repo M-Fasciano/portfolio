@@ -56,6 +56,7 @@ const StyledChildInnerDiv = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   min-height: 200px;
+  padding: 1rem;
   position: relative;
   z-index: 1;
 
