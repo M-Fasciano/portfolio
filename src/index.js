@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import App from './components/Layout/index'
 import * as serviceWorker from './serviceWorker'
 import ReactGA from 'react-ga'
-ReactGA.initialize('UA-16396018-4')
+ReactGA.initialize('G-JHD9S8XLPF')
 ReactGA.pageview(window.location.pathname + window.location.search)
 
 require('../src/images/favicon.ico')
