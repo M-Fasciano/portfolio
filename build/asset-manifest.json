@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.57ed7d12.chunk.css",
+    "main.js": "/portfolio/static/js/main.d0be9404.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d0be9404.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c26dbc9f.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c26dbc9f.js.map",
+    "static/css/2.8ba6fe27.chunk.css": "/portfolio/static/css/2.8ba6fe27.chunk.css",
+    "static/js/2.8d87d96a.chunk.js": "/portfolio/static/js/2.8d87d96a.chunk.js",
+    "static/js/2.8d87d96a.chunk.js.map": "/portfolio/static/js/2.8d87d96a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.cf1e323615dfe2cc3b0f73e168fab53d.js": "/portfolio/precache-manifest.cf1e323615dfe2cc3b0f73e168fab53d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.8ba6fe27.chunk.css.map": "/portfolio/static/css/2.8ba6fe27.chunk.css.map",
+    "static/css/main.57ed7d12.chunk.css.map": "/portfolio/static/css/main.57ed7d12.chunk.css.map",
+    "static/media/shapes.scss": "/portfolio/static/media/triangle.07e9bca1.svg",
+    "static/media/equiom-group.jpg": "/portfolio/static/media/equiom-group.22375eea.jpg",
+    "static/media/favicon.ico": "/portfolio/static/media/favicon.18475ac3.ico",
+    "static/media/hyundai-life.jpg": "/portfolio/static/media/hyundai-life.3f63e8e9.jpg",
+    "static/media/index.css": "/portfolio/static/media/major-mono-display-latin-400.fcf51039.woff",
+    "static/media/meta-image.jpg": "/portfolio/static/media/meta-image.96c6d6af.jpg",
+    "static/media/react-logo.svg": "/portfolio/static/media/react-logo.bd9138bf.svg",
+    "static/media/wolves.jpg": "/portfolio/static/media/wolves.cf36953c.jpg"
+  }
+}
