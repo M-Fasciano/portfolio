@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import metaImg from '../../images/meta-image.jpg'
+import favicon from '../../images/favicon.ico'
 
 const SEO = () => {
   return (
@@ -28,6 +29,8 @@ const SEO = () => {
       <meta property="og:title" content="Michele Fasciano | Portfolio" />
       <meta property="og:description" content="Front-end web developer based in London with passion for responsive websites." />
       <meta property="og:image" content={metaImg} />
+
+      <link rel="shortcut icon" href={favicon} />
     </Helmet>
   )
 }
