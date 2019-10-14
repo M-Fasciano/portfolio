@@ -1,10 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import metaImg from '../../images/meta-image.jpg'
-<<<<<<< HEAD
-=======
 import favicon from '../../images/favicon.ico'
->>>>>>> 1bb4c769f9f8f62543ba1f3f7e135b25bdcf5385
 
 const SEO = () => {
   return (
