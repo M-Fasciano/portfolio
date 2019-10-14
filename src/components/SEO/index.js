@@ -32,11 +32,8 @@ const SEO = () => {
       <meta property="og:title" content="Michele Fasciano | Portfolio" />
       <meta property="og:description" content="Front-end web developer based in London with passion for responsive websites." />
       <meta property="og:image" content={metaImg} />
-<<<<<<< HEAD
-=======
 
       <link rel="shortcut icon" href={favicon} />
->>>>>>> 1bb4c769f9f8f62543ba1f3f7e135b25bdcf5385
     </Helmet>
   )
 }
