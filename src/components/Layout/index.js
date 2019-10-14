@@ -11,15 +11,21 @@ import Footer from '../Footer/index'
 
 library.add(fab)
 
-function App() {
-  return (
-    <>
-      <SEO />
-      <Header />
-      <Content />
-      <Footer />
-    </>
-  )
+class App extends React.Component {
+  componentDidMount() {
+    this.props.hideLoader()
+  }
+  
+  render() {   
+    return (
+      <>
+        <SEO />
+        <Header />
+        <Content />
+        <Footer />
+      </>
+    )
+  }
 }
 
 export default App
