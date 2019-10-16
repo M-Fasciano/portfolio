@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import colours from '../../styles/export/colours.scss'
 import { device } from '../Global/device'
 
+require('intersection-observer')
+
 const StyledListItem = styled.li`
   margin-bottom: 2rem;
   position: relative;
