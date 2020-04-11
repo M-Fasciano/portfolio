@@ -57,6 +57,16 @@ const Social = () => {
       </li>
       <li>
         <a
+          href="https://codepen.io/m-fasciano"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Codepen
+          <FontAwesomeIcon icon={['fab', 'codepen']} />
+        </a>
+      </li>
+      <li>
+        <a
           href="https://www.facebook.com/Michele-Fasciano-front-end-web-developer-142030352544894/"
           target="_blank"
           rel="noopener noreferrer"
