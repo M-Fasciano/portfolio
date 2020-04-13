@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import colours from '../../styles/export/colours.scss'
-import { device } from '../Global/Device'
+import { device } from '../Global/Breakpoints'
 
 // PROJECTS
 export const Section = styled.section`

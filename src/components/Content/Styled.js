@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../Global/Device'
+import { device } from '../Global/Breakpoints'
 
 export const Div = styled.div`
   margin: 0;
