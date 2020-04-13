@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Styled from '../Footer/Styled'
+import * as Styled from './Styled'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Social = () => {
