@@ -1,13 +1,9 @@
-import React from 'react'
 import styled from 'styled-components'
 import colours from '../../styles/export/colours.scss'
-import { device } from '../Global/device'
+import { device } from '../Global/Device'
 
-import Title from './title'
-import Intro from './intro'
-import Particles from './particles'
-
-const StyledHeader = styled.header`
+// HEADER
+export const Header = styled.header`
   background-color: ${colours.black};
   position: relative;
   width: 100vw;
@@ -46,7 +42,7 @@ const StyledHeader = styled.header`
   }
 `
 
-const StyledH1 = styled.h1`
+export const H1 = styled.h1`
   background-image: -webkit-linear-gradient(90deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -88,15 +84,30 @@ const StyledH1 = styled.h1`
   }
 `
 
-const Header = () => (
-  <StyledHeader>
-    <div>
-      <StyledH1>michele fAsciAno</StyledH1>
-      <Title />
-      <Intro />
-      <Particles />
-    </div>
-  </StyledHeader>
-)
+// INTRO
+export const P = styled.p`
+  color: ${colours.white};
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin: 0;
 
-export default Header
+  &:before {
+    background-color: ${colours.white};
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
+    width: 50px;
+  }
+`
+
+// TITLE
+export const Span = styled.span`
+  color: ${colours.white};
+  font-family: 'Major Mono Display', monospace;
+  display: block;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+`

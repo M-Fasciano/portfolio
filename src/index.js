@@ -1,7 +1,7 @@
 import '@babel/polyfill'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/Layout/index'
+import App from './components/Layout/Layout'
 import * as serviceWorker from './serviceWorker'
 import ReactGA from 'react-ga'
 ReactGA.initialize('UA-149866002-1')

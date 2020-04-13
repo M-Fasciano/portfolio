@@ -4,10 +4,10 @@ import '../../styles/core.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-import SEO from '../SEO/index'
-import Header from '../Header/index'
-import Content from '../Content/index'
-import Footer from '../Footer/index'
+import SEO from '../SEO/SEO'
+import Header from '../Header/Header'
+import Content from '../Content/Content'
+import Footer from '../Footer/Footer'
 
 library.add(fab)
 

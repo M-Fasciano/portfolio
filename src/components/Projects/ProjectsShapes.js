@@ -1,22 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
-import styled from 'styled-components'
-import { device } from '../Global/device'
+import * as Styled from './Styled'
 import '../../styles/shapes/shapes.scss'
-
-const StyledContainer = styled.div`
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: 10;
-
-  @media ${device.laptop} {
-    display: block;
-  }
-`
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans1 = (x, y) => `translate3d(${x * .1}px, ${y * .15}px,0)`
@@ -35,7 +20,7 @@ const Shapes = () => {
   }))
 
   return (
-    <StyledContainer onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
+    <Styled.Container onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
       <animated.div className="shape shape--1" style={{ transform: props.xy.interpolate(trans1) }} />
       <animated.div className="shape shape--2" style={{ transform: props.xy.interpolate(trans2) }} />
       <animated.div className="shape shape--3" style={{ transform: props.xy.interpolate(trans3) }} />
@@ -52,7 +37,7 @@ const Shapes = () => {
       <animated.div className="shape shape--14" style={{ transform: props.xy.interpolate(trans2) }} />
       <animated.div className="shape shape--15" style={{ transform: props.xy.interpolate(trans3) }} />
       <animated.div className="shape shape--16" style={{ transform: props.xy.interpolate(trans4) }} />
-    </StyledContainer>
+    </Styled.Container>
   )
 }
 
