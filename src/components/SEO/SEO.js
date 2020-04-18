@@ -10,6 +10,7 @@ const SEO = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
       <meta name="description" content="Frontend web developer based in London with passion for responsive websites." />
+      <meta name="google-site-verification" content="-1Ad6eS6BmY3sHFAtMVp5NK_9HcogJ-POokjB1RJPzI" />
       <link rel="apple-touch-icon" href="logo192.png" />
 
       <title>Michele Fasciano | Portfolio</title>
