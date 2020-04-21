@@ -3,9 +3,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/Layout/Layout'
 import * as serviceWorker from './serviceWorker'
-import ReactGA from 'react-ga'
-ReactGA.initialize('UA-149866002-1')
-ReactGA.pageview(window.location.pathname + window.location.search)
+// import ReactGA from 'react-ga'
+// ReactGA.initialize('UA-149866002-1')
+// ReactGA.pageview(window.location.pathname + window.location.search)
 
 require('../src/images/favicon.ico')
 require('typeface-major-mono-display')
