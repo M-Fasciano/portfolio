@@ -11,7 +11,7 @@
     "@fortawesome/react-fontawesome": "^0.1.5",
     "gh-pages": "^2.1.1",
     "intersection-observer": "^0.7.0",
-    "node-sass": "^7.0.3",
+    "node-sass": "^9.0.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-ga": "^2.7.0",
